@@ -1,6 +1,6 @@
-# Capstone Project
+# Marketplace App
 
-> One-line description of what this app does.
+> A web marketplace where users can list, browse, and buy items from the seller.
 
 ## Status
 🚧 In progress — capstone project.
