@@ -1,3 +1,4 @@
+import SettingsForm from './SettingsForm';
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
@@ -29,6 +30,12 @@ function App() {
           Count is {count}
         </button>
       </section>
+
+      <SettingsForm onSave={(values) => console.log('Saved:', values)} />
+
+      <div className="ticks"></div>
+
+      <section id="next-steps"></section>
 
       <div className="ticks"></div>
 
