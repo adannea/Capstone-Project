@@ -1,3 +1,4 @@
+import SettingsForm from './SettingsForm';
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
@@ -29,6 +30,7 @@ function App() {
           Count is {count}
         </button>
       </section>
+            <SettingsForm />
 
       <div className="ticks"></div>
 
